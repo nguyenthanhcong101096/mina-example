@@ -1,6 +1,6 @@
-![](https://lh3.googleusercontent.com/proxy/kNbp0STR_daiJ9QN6J7HPLaCTH94gs0tbrKzHb9mRLu03uOi6k4yQp0dJg1dJihvkge1Q-9RWrPUHvQNDG96JOd72Jg_mivRnreVOT9PeATy_QCp5JRfIN1NBw)
-# Deploy app with Capistrano
-[Capistrano](https://capistranorb.com/documentation/getting-started/local-tasks/) | [Github](https://github.com/capistrano/capistrano)
+![](https://elmiyaagnesblog.files.wordpress.com/2016/06/mina.jpg?w=924&h=0&crop=1)
+# Deploy app with Mina
+[Mina](http://nadarei.co/mina/) | [Github](https://github.com/mina-deploy/mina/tree/2608e50049cf21b1425c8bb7c3e5dd0e964b725f/docs)
 
 ### Step 1: Add gem && bundle install
 * **Gemfile**
