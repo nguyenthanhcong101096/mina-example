@@ -3,16 +3,18 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: 5
 development:
   <<: *default
   database: project_development
+
 test:
   <<: *default
   database: project_test
+
 staging:
   <<: *default
-  database: project_production
+  database: project_staging
   username: nguoimexe
   password: password
   connect_timeout: 1
@@ -21,6 +23,7 @@ staging:
   port: 5432
   variables:
     statement_timeout: 5000
+
 production:
   <<: *default
   database: project_production
