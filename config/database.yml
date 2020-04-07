@@ -19,7 +19,7 @@ staging:
   password: password
   connect_timeout: 1
   checkout_timeout: 5
-  host: nguoimexe.cnsbpolwgyu7.ap-northeast-1.rds.amazonaws.com
+  host: nguoimexev2.cnsbpolwgyu7.ap-northeast-1.rds.amazonaws.com
   port: 5432
   variables:
     statement_timeout: 5000
@@ -31,7 +31,7 @@ production:
   password: password
   connect_timeout: 1
   checkout_timeout: 5
-  host: nguoimexe.cnsbpolwgyu7.ap-northeast-1.rds.amazonaws.com
+  host: nguoimexev2.cnsbpolwgyu7.ap-northeast-1.rds.amazonaws.com
   port: 5432
   variables:
     statement_timeout: 5000
