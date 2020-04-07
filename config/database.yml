@@ -15,7 +15,7 @@ test:
 staging:
   <<: *default
   database: project_staging
-  username: nguoimexe
+  username: postgres
   password: password
   connect_timeout: 1
   checkout_timeout: 5
@@ -27,7 +27,7 @@ staging:
 production:
   <<: *default
   database: project_production
-  username: nguoimexe
+  username: postgres
   password: password
   connect_timeout: 1
   checkout_timeout: 5
