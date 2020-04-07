@@ -8,14 +8,14 @@ set :application_name, 'project_app'
 
 task :staging do
   set :rails_env, 'staging'
-  set :domain,    '127.0.0.1'
+  set :domain,    '3.112.1.242'
   set :user,      'app'
   set :branch,    'master'
 end
 
 task :production do
   set :rails_env, 'production'
-  set :domain,    '127.0.0.1'
+  set :domain,    '3.112.1.242'
   set :user,      'app'
   set :branch,    'master'
 end
