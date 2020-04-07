@@ -209,3 +209,6 @@ end
 * Then
 
 `mina staging deploy`
+
+* create master.key
+`bundle exec rails credentials:edit`
